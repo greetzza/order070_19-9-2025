@@ -116,15 +116,11 @@
             opacity: 0;
         }
 
-        /* PERBAIKAN GALLERY CONTAINER */
         .gallery-container {
             max-width: 1200px;
             margin: 50px auto;
             padding: 0 15px;
             width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center; /* Ini yang akan membuat gallery menjadi center */
         }
         
         .gallery-title {
@@ -135,10 +131,8 @@
         }
         
         .masonry-gallery {
-            column-count: 3;
+            column-count: 1;
             column-gap: 15px;
-            width: 100%;
-            max-width: 1200px;
         }
         
         .masonry-item {
@@ -170,7 +164,7 @@
         /* Tablet Styles */
         @media (max-width: 900px) {
             .masonry-gallery {
-                column-count: 2;
+                column-count: 1;
             }
         }
 
@@ -178,7 +172,7 @@
         @media (max-width: 600px) {
             .gallery-container {
                 margin-top: 30px;
-                padding: 0 10px;
+                padding: 0;
             }
             
             .gallery-title {
@@ -225,23 +219,18 @@
             </div>
 
             <div class="gallery-container">
-                <h2 class="gallery-title">Kenangan Indah</h2>
                 <div class="masonry-gallery">
                     <div class="masonry-item">
-                        <img src="nurul2.jpeg" alt="Foto 1"> 
-                        <div class="masonry-caption">Momen spesial</div>
+                        <img src="nurul2.jpeg" alt="Art 1"> 
                     </div>
                     <div class="masonry-item">
-                        <img src="nurul4.jpeg" alt="Foto 2"> 
-                        <div class="masonry-caption">Kebersamaan</div>
+                        <img src="nurul4.jpeg" alt="Art 2"> 
                     </div>
                     <div class="masonry-item">
-                        <img src="nurul1.jpeg" alt="Foto 3"> 
-                        <div class="masonry-caption">Prestasi gemilang</div>
+                        <img src="nurul1.jpeg" alt="Art 3"> 
                     </div>
                     <div class="masonry-item">
-                        <img src="nurul3.jpeg" alt="Foto 4"> 
-                        <div class="masonry-caption">Senyummu</div>
+                        <img src="nurul3.jpeg" alt="Art 4"> 
                     </div>
                 </div>
             </div>
